@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("�̵� ����")]
+    [Header("플레이어 속도")]
     public float moveSpeed = 5f;
 
     private Rigidbody2D rb;
@@ -17,12 +17,13 @@ public class PlayerMovement : MonoBehaviour
         HandleMovement();
     }
 
+    // 캐릭터 움직임
     void HandleMovement()
     {
-        float x = Input.GetAxisRaw("Horizontal");  // ��/�� or A/D
+        float x = Input.GetAxisRaw("Horizontal");  
         rb.linearVelocity = new Vector2(x * moveSpeed, rb.linearVelocity.y);
 
-        // �ٶ󺸴� ���⿡ ���� ��������Ʈ ������ (����)
+        
         if (x != 0)
             transform.localScale = new Vector3(Mathf.Sign(x), 1, 1);
     }
