@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
+<<<<<<< HEAD
   productGUID: 1efd1dab2f2d39a458a8411e5c49f767
+=======
+  productGUID: ace0e389c687e304b80bf0ac761b8f67
+>>>>>>> 665047b6cdbb7e24cc845fc7937e56149367c9fc
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: Creafton(ZA KOREA)
+=======
+  productName: Creaton(JA KOREA)
+>>>>>>> 665047b6cdbb7e24cc845fc7937e56149367c9fc
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -609,14 +617,22 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: Creafton(ZA KOREA)
+=======
+  metroPackageName: Creaton(JA KOREA)
+>>>>>>> 665047b6cdbb7e24cc845fc7937e56149367c9fc
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
   metroApplicationDescription: Creafton(ZA KOREA)
+=======
+  metroApplicationDescription: Creaton(JA KOREA)
+>>>>>>> 665047b6cdbb7e24cc845fc7937e56149367c9fc
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -687,11 +703,19 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
+<<<<<<< HEAD
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: 
   organizationId: 
+=======
+  cloudProjectId: 942a5d51-38c2-4981-bb20-7587ddcbc871
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: Creaton(JA KOREA)
+  organizationId: l35552179
+>>>>>>> 665047b6cdbb7e24cc845fc7937e56149367c9fc
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
