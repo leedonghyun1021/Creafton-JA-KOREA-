@@ -1,4 +1,3 @@
-# Unity
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -9,8 +8,4 @@ Logs/
 UserSettings/
 *.csproj.user
 *.suo
-<<<<<<< HEAD
 *.pidb
-=======
-*.pidb
->>>>>>> 665047b6cdbb7e24cc845fc7937e56149367c9fc
