@@ -452,7 +452,7 @@ Transform:
   m_GameObject: {fileID: 129676411}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.29, y: -0.79, z: 0}
+  m_LocalPosition: {x: -23.18, y: -0.86, z: 0}
   m_LocalScale: {x: 0.996, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -561,11 +561,11 @@ TilemapCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
+  m_MaximumTileChangeCount: 10000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
 --- !u!483693784 &129676416
@@ -4254,7 +4254,7 @@ GameObject:
   - component: {fileID: 576134836}
   - component: {fileID: 576134835}
   m_Layer: 0
-  m_Name: 'DialogueTrigger  '
+  m_Name: "DialogueTrigger  (\uC5EC\uAE30\uC11C \uB300\uD654\uCC3D \uC218\uC815)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4294,7 +4294,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 8.354024, y: -0.5998633}
+  m_Offset: {x: 8.354024, y: -2.5301416}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4304,7 +4304,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8593736, y: 2.1997263}
+  m_Size: {x: 1.8593731, y: 6.060283}
   m_EdgeRadius: 0
 --- !u!114 &576134836
 MonoBehaviour:
@@ -4810,7 +4810,7 @@ Transform:
   m_GameObject: {fileID: 1927881613}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.33, y: -0.84981465, z: 0.108132705}
+  m_LocalPosition: {x: 8.19, y: -4.68, z: 0.108132705}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4861,7 +4861,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &1957062004
 SpriteRenderer:
@@ -4927,7 +4927,7 @@ Transform:
   m_GameObject: {fileID: 1957062002}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.27, y: -0.41, z: 0}
+  m_LocalPosition: {x: -8.6, y: -3.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4967,7 +4967,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.02297008}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4977,8 +4977,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Size: {x: 1, y: 0.95405984}
+  m_EdgeRadius: 0.05
 --- !u!114 &1957062007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5098,7 +5098,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2040967280

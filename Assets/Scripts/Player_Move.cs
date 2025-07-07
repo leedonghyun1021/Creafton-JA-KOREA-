@@ -12,18 +12,17 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    //물리 기반 이동은 여기서 처리!
+    void FixedUpdate()
     {
-        HandleMovement();
+        HandleMovement(); 
     }
 
-    // 캐릭터 움직임
     void HandleMovement()
     {
-        float x = Input.GetAxisRaw("Horizontal");  
+        float x = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(x * moveSpeed, rb.linearVelocity.y);
 
-        
         if (x != 0)
             transform.localScale = new Vector3(Mathf.Sign(x), 1, 1);
     }
